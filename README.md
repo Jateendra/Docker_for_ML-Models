@@ -43,5 +43,15 @@ Once the docker image is built and tested, we can share it with others so that t
 
 * [More Details ](https://www.analyticsvidhya.com/blog/2021/06/a-hands-on-guide-to-containerized-your-machine-learning-workflow-with-docker/)
 
+# Commands :
+
+      docker version
+      docker ps -a
+      docker images
+      docker build -t breast_cancer_class:1.0 .
+      docker run -p 5000:3000 breast_cancer_class:1.0
+      docker ps
+      docker run -d -p 5000:3000 breast_cancer_class:1.0
+
 
 
